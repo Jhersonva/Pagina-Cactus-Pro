@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root{
+    --yellow:#007BFF;
+}
+
+
+
+
+.btn{
+    padding:.7rem 3rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+}
+
+.btn i{
+    padding:0 .0rem;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background:var(--yellow);
+}
+
+.global{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 2.3rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color:#fff;
+}
+
+.global span{
+    color:var(--yellow); 
+}
+
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+}
+
+.inicio h3{
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.inicio h1{
+    font-size:5rem;
+    color:#fff;
+}
+
+.inicio h1 span{
+    color:var(--yellow); 
+}
+
+.inicio p{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.sobre .sobre-mi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.sobre .sobre-mi .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.sobre .sobre-mi .info h3{
+    
+    color:var(--yellow);  
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.sobre .sobre-mi .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.sobre .sobre-mi .adicional{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sobre .sobre-mi .adicional .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.sobre .sobre-mi .adicional .box span{
+    font-size: 4rem;
+    color:var(--yellow);  
+}
+
+.sobre .sobre-mi .adicional .box h3{
+    font-size: 2rem;
+    color:#fff;
+}
+
+
+
+
+
+
+.contacto .sobre-mi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacto .sobre-mi .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.contacto .sobre-mi form{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+.contacto .sobre-mi form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#3333;
+    color:#fff;
+    text-transform: none;
+    font-size: 1rem;
+    width:100%;
+}
+
+.contacto .sobre-mi form .box::placeholder{
+    text-transform: capitalize;
+}
+
+
+
+.contacto .sobre-mi .content .title{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.contacto .sobre-mi .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contacto .sobre-mi .content .info h3 i{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
+
+
+
+.contacto{
+    background:#111111;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
